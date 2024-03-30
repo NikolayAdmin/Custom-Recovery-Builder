@@ -104,8 +104,8 @@ jobs:
       run: |
         mkdir android-recovery
         cd android-recovery
-        git config --global user.name "depesh1977"
-        git config --global user.email "axenov.gosha@yandex.ru"
+        git config --global user.name "NikolayAdmin"
+        git config --global user.email "dubininnikolay161@gmail.com"
         repo init --depth=1 -u ${{ steps.manifest.outputs.value }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
   
     - name: Repo Sync
